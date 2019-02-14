@@ -3,6 +3,12 @@ package com.company;
 public class WarGamesDemo {
 
     public static void main(String[] args) {
-	// write your code here
+
+        DeckGenerator generator = new DeckGenerator();
+
+        generator.createCard();
+
+        generator.showAllCards();
+
     }
 }

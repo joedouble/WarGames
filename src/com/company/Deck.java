@@ -1,25 +1,31 @@
 package com.company;
 
+import javafx.util.Pair;
+
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Deck {
 
+    private ArrayList<Card> cardDeck;
 
-//    public Card deckGenerator() {
-//
-//        ArrayList<String> suits = new ArrayList<String>(Arrays.asList("Spades", "Hearts", "Diamonds", "Clubs"));
-//        ArrayList<String> ranks = new ArrayList<String>(Arrays.asList("Ace", "1", "2", "3", "4", "5", "6", "7", "8",
-//                "9", "10"));
-//
-//        for (String suit : suits) {
-//            for (String rank : ranks) {
-//                Card newCard = new Card(suit, rank);
-//                deck.add(newCard);
-//            }
-//        }
-//        return
-//    }
+    public ArrayList<Card> getCardDeck() {
+        return cardDeck;
+    }
+
+    public void setCardDeck(ArrayList<Card> cardDeck) {
+        this.cardDeck = cardDeck;
+    }
+
+    public ArrayList<Card> first26OfDeck(ArrayList<Card> deck) {
+        ArrayList<Card> first26 = new ArrayList<Card>(deck.subList(0, 26));
+        return first26;
+    }
+
+    public ArrayList<Card> second26OfDeck(ArrayList<Card> deck) {
+        ArrayList<Card> last26 = new ArrayList<Card>(deck.subList(26, 52));
+        return last26;
+    }
 
 }

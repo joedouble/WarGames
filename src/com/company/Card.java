@@ -4,10 +4,11 @@ public class Card {
 
     private String suit;
     private String rank;
+    private int cardValue;
     private int numericWeightOfCard;
 
     public void printDetails(){
-        System.out.println("Card is: " + this.suit + ":" + this.rank);
+        System.out.println("Card is: " + this.suit + " : " + this.rank + " With a value of:  " + this.cardValue);
     }
 
     public Card(String suit, String rank) {
@@ -15,32 +16,32 @@ public class Card {
         this.rank = rank;
     }
 
-    public int cardValue(Card card) {
-        if (this.rank.equalsIgnoreCase("Ace")) {
+    public int getCardValue(Card newCard) {
+        if (this.getRank().equalsIgnoreCase("Ace")) {
             numericWeightOfCard = 1;
-        } else if (this.rank.equalsIgnoreCase("2")) {
+        } else if (rank.equalsIgnoreCase("2")) {
             numericWeightOfCard = 2;
-        } else if (this.rank.equalsIgnoreCase("3")) {
+        } else if (rank.equalsIgnoreCase("3")) {
             numericWeightOfCard = 3;
-        } else if (this.rank.equalsIgnoreCase("4")) {
+        } else if (rank.equalsIgnoreCase("4")) {
             numericWeightOfCard = 4;
-        } else if (this.rank.equalsIgnoreCase("5")) {
+        } else if (rank.equalsIgnoreCase("5")) {
             numericWeightOfCard = 5;
-        } else if (this.rank.equalsIgnoreCase("6")) {
+        } else if (rank.equalsIgnoreCase("6")) {
             numericWeightOfCard = 6;
-        } else if (this.rank.equalsIgnoreCase("7")) {
+        } else if (rank.equalsIgnoreCase("7")) {
             numericWeightOfCard = 7;
-        } else if (this.rank.equalsIgnoreCase("8")) {
+        } else if (rank.equalsIgnoreCase("8")) {
             numericWeightOfCard = 8;
-        } else if (this.rank.equalsIgnoreCase("9")) {
+        } else if (rank.equalsIgnoreCase("9")) {
             numericWeightOfCard = 9;
-        } else if (this.rank.equalsIgnoreCase("10")) {
+        } else if (rank.equalsIgnoreCase("10")) {
             numericWeightOfCard = 10;
-        } else if (this.rank.equalsIgnoreCase("Jack")) {
+        } else if (rank.equalsIgnoreCase("Jack")) {
             numericWeightOfCard = 11;
-        } else if (this.rank.equalsIgnoreCase("Queen")) {
+        } else if (rank.equalsIgnoreCase("Queen")) {
             numericWeightOfCard = 12;
-        } else if (this.rank.equalsIgnoreCase("King")) {
+        } else if (rank.equalsIgnoreCase("King")) {
             numericWeightOfCard = 13;
         }
         return  numericWeightOfCard;
@@ -56,6 +57,14 @@ public class Card {
 
     public String getRank() {
         return rank;
+    }
+
+    public int getCardValue() {
+        return cardValue;
+    }
+
+    public void setCardValue(int cardValue) {
+        this.cardValue = cardValue;
     }
 
     public void setRank(String rank) {

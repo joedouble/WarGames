@@ -55,7 +55,5 @@ public class WarGamesDemo {
         generator.showAllCardsInDeck(tempSecondHalf);
 
 
-//        generator.showAllCardsInDeck(players.getTempCardHolder());
-
     }
 }

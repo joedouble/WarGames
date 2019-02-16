@@ -6,24 +6,56 @@ public class WarGamesDemo {
 
     public static void main(String[] args) {
 
-        DeckGenerator generator = new DeckGenerator();
         Deck deck = new Deck();
-        ArrayList<Card> deckOfCards = generator.makeDeck();
+        DeckGenerator generator = new DeckGenerator();
+        Players players = new Players();
+        ArrayList<Card> deckOfCards = generator.makeADeckOfCards();
 
 
         deck.setCardDeck(deckOfCards);
 
-        generator.showAllCards(deckOfCards);
+//        generator.shuffleDeckOfCards(deckOfCards);
 
-        ArrayList<Card> tempFirstHalf = deck.first26OfDeck(deckOfCards);
-        ArrayList<Card> tempSecondHalf = deck.second26OfDeck((deckOfCards));
+        generator.showAllCardsInDeck(deckOfCards);
+
+
+        ArrayList<Card> tempFirstHalf = players.firstHalfOfSplitDeck(deckOfCards);
+        ArrayList<Card> tempSecondHalf = players.secondHalfOfSplitDeck((deckOfCards));
+
 
         System.out.println(" ------------------------- ");
 
         System.out.println("First Half");
-        generator.showAllCards(tempFirstHalf);
+        generator.showAllCardsInDeck(tempFirstHalf);
         System.out.println("\n");
         System.out.println("Second Half");
-        generator.showAllCards(tempSecondHalf);
+        generator.showAllCardsInDeck(tempSecondHalf);
+
+        System.out.println(" ------------------------- ");
+
+        players.showCards(tempFirstHalf, tempSecondHalf);
+        players.showCards(tempFirstHalf, tempSecondHalf);
+        players.showCards(tempFirstHalf, tempSecondHalf);
+        players.showCards(tempFirstHalf, tempSecondHalf);
+        players.showCards(tempFirstHalf, tempSecondHalf);
+        players.showCards(tempFirstHalf, tempSecondHalf);
+        players.showCards(tempFirstHalf, tempSecondHalf);
+        players.showCards(tempFirstHalf, tempSecondHalf);
+        players.showCards(tempFirstHalf, tempSecondHalf);
+
+        players.showCards(tempFirstHalf, tempSecondHalf);
+
+
+        System.out.println(" ------------------------- ");
+
+        System.out.println("First Half After Round");
+        generator.showAllCardsInDeck(tempFirstHalf);
+        System.out.println("\n");
+        System.out.println("Second Half After Round");
+        generator.showAllCardsInDeck(tempSecondHalf);
+
+
+//        generator.showAllCardsInDeck(players.getTempCardHolder());
+
     }
 }

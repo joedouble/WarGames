@@ -10,22 +10,21 @@ public class Deck {
 
     private ArrayList<Card> cardDeck;
 
-    public ArrayList<Card> getCardDeck() {
-        return cardDeck;
-    }
+//    public ArrayList<Card> firstHalfOfSplitDeck(ArrayList<Card> deck) {
+//        ArrayList<Card> firstHalf = new ArrayList<Card>(deck.subList(0, 26));
+//        return firstHalf;
+//    }
+//
+//    public ArrayList<Card> secondHalfOfSplitDeck(ArrayList<Card> deck) {
+//        ArrayList<Card> secondHalf = new ArrayList<Card>(deck.subList(26, 52));
+//        return secondHalf;
+//    }
 
     public void setCardDeck(ArrayList<Card> cardDeck) {
         this.cardDeck = cardDeck;
     }
 
-    public ArrayList<Card> first26OfDeck(ArrayList<Card> deck) {
-        ArrayList<Card> first26 = new ArrayList<Card>(deck.subList(0, 26));
-        return first26;
+    public ArrayList<Card> getCardDeck() {
+        return cardDeck;
     }
-
-    public ArrayList<Card> second26OfDeck(ArrayList<Card> deck) {
-        ArrayList<Card> last26 = new ArrayList<Card>(deck.subList(26, 52));
-        return last26;
-    }
-
 }

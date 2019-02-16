@@ -4,11 +4,11 @@ public class Card {
 
     private String suit;
     private String rank;
-    private int cardValue;
+    private int valueOfCard;
     private int numericWeightOfCard;
 
     public void printDetails(){
-        System.out.println("Card is: " + this.suit + " : " + this.rank + " With a value of:  " + this.cardValue);
+        System.out.println("Card is: " + this.suit + " : " + this.rank + " With a value of:  " + this.valueOfCard);
     }
 
     public Card(String suit, String rank) {
@@ -16,7 +16,7 @@ public class Card {
         this.rank = rank;
     }
 
-    public int getCardValue(Card newCard) {
+    public int getValueOfCard(Card newCard) {
         if (this.getRank().equalsIgnoreCase("Ace")) {
             numericWeightOfCard = 1;
         } else if (rank.equalsIgnoreCase("2")) {
@@ -59,12 +59,12 @@ public class Card {
         return rank;
     }
 
-    public int getCardValue() {
-        return cardValue;
+    public int getValueOfCard() {
+        return valueOfCard;
     }
 
-    public void setCardValue(int cardValue) {
-        this.cardValue = cardValue;
+    public void setValueOfCard(int valueOfCard) {
+        this.valueOfCard = valueOfCard;
     }
 
     public void setRank(String rank) {

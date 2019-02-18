@@ -8,7 +8,7 @@ public class Card {
     private int numericWeightOfCard;
 
     public void printDetails(){
-        System.out.println(this.suit + ":" + this.rank + " VALUE-" + this.valueOfCard);
+        System.out.println(this.suit + ":" + this.rank);// " VALUE-" + this.valueOfCard
     }
 
     public Card(String suit, String rank) {

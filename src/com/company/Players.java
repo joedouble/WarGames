@@ -24,7 +24,6 @@ public class Players {
             player1HalfOfDeck.add(player1Card);
             player1HalfOfDeck.add(player2Card);
 
-
             for (int i = tempCardHolder.size() - 1; i >= 0; i--) {
                 removedCard = tempCardHolder.remove(i);
                 player1HalfOfDeck.add(removedCard);
@@ -46,7 +45,8 @@ public class Players {
         } else {
             tempCards(player1Card);
             tempCards(player2Card);
-            System.out.println("Player 1 and Player 2 tied.\n");
+            System.out.println("THIS ROUND IS A TIE!  BOTH CARDS HAVE THE SAME VALUE.\nTHE WINNER OF THE NEXT ROUND GETS " +
+                    "BOTH OF THESE CARD ADDED TO THEIR DECK.\n");
         }
     }
 

@@ -10,7 +10,6 @@ public class DeckGenerator {
     private ArrayList<String> ranks = new ArrayList<String>(Arrays.asList("Ace",  "2", "3", "4", "5", "6", "7", "8",
             "9", "10", "Jack", "Queen", "King"));
     private Card newCard;
-//  private int cardValue;
 
     public void shuffleDeckOfCards(ArrayList<Card> deck){
         Collections.shuffle(deck);

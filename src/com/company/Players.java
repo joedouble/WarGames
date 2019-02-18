@@ -7,12 +7,12 @@ public class Players {
     private ArrayList<Card> player1;
     private ArrayList<Card> player2;
     private ArrayList<Card> tempCardHolder = new ArrayList<Card>();
-    private int counter = 0;
+    private Card removedCard;
 
     public void showCards(ArrayList<Card> player1HalfOfDeck, ArrayList<Card> player2HalfOfDeck) {
 
-        Card player1Card = player1HalfOfDeck.remove(counter);
-        Card player2Card = player2HalfOfDeck.remove(counter);
+        Card player1Card = player1HalfOfDeck.remove(0);
+        Card player2Card = player2HalfOfDeck.remove(0);
 
         System.out.print("Player 1's Card is: ");
         player1Card.printDetails();
@@ -20,33 +20,41 @@ public class Players {
         System.out.print("Player 2's Card is: ");
         player2Card.printDetails();
 
-        if (player1Card.getValueOfCard(player1Card) == player2Card.getValueOfCard(player2Card)) {
-            tempCards(player1Card);
-            tempCards(player2Card);
-            System.out.println("Player 1 and Player 2 tied.\n");
-
-        } else if (player1Card.getValueOfCard(player1Card) > player2Card.getValueOfCard(player2Card)) {
+        if (player1Card.getValueOfCard(player1Card) > player2Card.getValueOfCard(player2Card)) {
             player1HalfOfDeck.add(player1Card);
             player1HalfOfDeck.add(player2Card);
-//            if (tempCardHolder.size() > 0) {
-//                for (Card tempCard : tempCardHolder) {
-//                    player1HalfOfDeck.add(tempCard);
-//                }
-//            }
+
+            int tempCard = tempCardHolder.size();
+
+            System.out.println("-------------TEMP CARD ARRAY SIZE BEFORE ADDING TO PLAYER 1 IS:  " + tempCard + "----------------");
+
+            for (int i = tempCardHolder.size()-1; i >=0; i--) {
+                removedCard = tempCardHolder.remove(i);
+                player1HalfOfDeck.add(removedCard);
+            }
+            tempCard = tempCardHolder.size();
+            System.out.println("-------------TEMP CARD ARRAY SIZE AFTER ADDING TO PLAYER 1 IS:  " + tempCard + "----------------");
             System.out.println("Player 1 wins this round.\n");
 
         } else if (player2Card.getValueOfCard(player2Card) > player1Card.getValueOfCard(player1Card)) {
             player2HalfOfDeck.add(player2Card);
             player2HalfOfDeck.add(player1Card);
-//            if (tempCardHolder.size() > 0) {
-//                for (Card tempCard : tempCardHolder) {
-//                    player2HalfOfDeck.add(tempCard);
-//                }
-//            }
+            int tempCard = tempCardHolder.size();
+            System.out.println("-------------TEMP CARD ARRAY SIZE BEFORE ADDING TO PLAYER 2 IS:  " + tempCard + "----------------");
+            for (int i = tempCardHolder.size()-1; i >=0; i--) {
+                removedCard = tempCardHolder.remove(i);
+                player2HalfOfDeck.add(removedCard);
+            }
+            tempCard = tempCardHolder.size();
+            System.out.println("-------------TEMP CARD ARRAY SIZE AFTER ADDING TO PLAYER 2 IS:  " + tempCard + "----------------");
             System.out.println("Player 2 wins this round.\n");
 
         } else {
-            System.out.println("Try again.");
+            tempCards(player1Card);
+            tempCards(player2Card);
+            System.out.println("Player 1 and Player 2 tied.\n");
+            int tempCard = tempCardHolder.size();
+            System.out.println("-------------TEMP CARD ARRAY SIZE IS:  " + tempCard + "----------------");
         }
 
     }

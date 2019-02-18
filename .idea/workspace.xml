@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa428829-7192-4b44-8803-1b74728242ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DeckGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DeckGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Players.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Players.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/WarGamesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/WarGamesDemo.java" afterDir="false" />
     </list>
@@ -17,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/WarGamesDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+            <state relative-caret-position="274">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#522#528#0" expanded="true" />
@@ -84,21 +81,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Players.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="30" selection-start-line="30" selection-start-column="2" selection-end-line="34" selection-end-column="15" />
+            <state relative-caret-position="278">
+              <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
               <folding>
                 <element signature="e#207#213#0" expanded="true" />
-                <element signature="e#1971#1972#0" expanded="true" />
+                <element signature="e#2684#2685#0" expanded="true" />
                 <element signature="e#1731#1737#0" expanded="true" />
                 <element signature="e#1916#1922#0" expanded="true" />
-                <element signature="e#2414#2415#0" expanded="true" />
-                <element signature="e#2507#2508#0" expanded="true" />
-                <element signature="e#2580#2581#0" expanded="true" />
-                <element signature="e#2673#2674#0" expanded="true" />
-                <element signature="e#2760#2761#0" expanded="true" />
+                <element signature="e#3127#3128#0" expanded="true" />
+                <element signature="e#3220#3221#0" expanded="true" />
+                <element signature="e#3293#3294#0" expanded="true" />
+                <element signature="e#3386#3387#0" expanded="true" />
+                <element signature="e#3473#3474#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,8 +120,8 @@
         <option value="$PROJECT_DIR$/src/com/company/Deck.java" />
         <option value="$PROJECT_DIR$/src/com/company/DeckGenerator.java" />
         <option value="$PROJECT_DIR$/src/com/company/Card.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Players.java" />
         <option value="$PROJECT_DIR$/src/com/company/WarGamesDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Players.java" />
       </list>
     </option>
   </component>
@@ -170,7 +167,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550454709862" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550457444586" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -211,12 +208,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550173544553</updated>
-      <workItem from="1550173547932" duration="23031000" />
+      <workItem from="1550173547932" duration="25668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23031000" />
+    <option name="totallyTimeSpent" value="25668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -343,31 +340,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Players.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/WarGamesDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="30" selection-start-line="30" selection-start-column="2" selection-end-line="34" selection-end-column="15" />
+        <state relative-caret-position="274">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
           <folding>
-            <element signature="e#207#213#0" expanded="true" />
-            <element signature="e#1971#1972#0" expanded="true" />
-            <element signature="e#1731#1737#0" expanded="true" />
-            <element signature="e#1916#1922#0" expanded="true" />
-            <element signature="e#2414#2415#0" expanded="true" />
-            <element signature="e#2507#2508#0" expanded="true" />
-            <element signature="e#2580#2581#0" expanded="true" />
-            <element signature="e#2673#2674#0" expanded="true" />
-            <element signature="e#2760#2761#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#522#528#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/WarGamesDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Players.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        <state relative-caret-position="278">
+          <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#522#528#0" expanded="true" />
+            <element signature="e#207#213#0" expanded="true" />
+            <element signature="e#2684#2685#0" expanded="true" />
+            <element signature="e#1731#1737#0" expanded="true" />
+            <element signature="e#1916#1922#0" expanded="true" />
+            <element signature="e#3127#3128#0" expanded="true" />
+            <element signature="e#3220#3221#0" expanded="true" />
+            <element signature="e#3293#3294#0" expanded="true" />
+            <element signature="e#3386#3387#0" expanded="true" />
+            <element signature="e#3473#3474#0" expanded="true" />
           </folding>
         </state>
       </provider>

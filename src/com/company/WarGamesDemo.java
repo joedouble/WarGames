@@ -58,11 +58,23 @@ public class WarGamesDemo {
                     }
 
                     if (player1DeckOfCards.size() == 0) {
-                        System.out.println("Player 1 is the WINNER!");
-                        String = 
-                        System.out.println();
-                    } else if (player2DeckOfCards.size() == 0) {
                         System.out.println("Player 2 is the WINNER!");
+                        int player1Size = player1DeckOfCards.size();
+                        int player2Size = player2DeckOfCards.size();
+                        int tempCardHolder = players.getTempCardHolder().size();
+                        System.out.println("==========Player 1 size: " + player1Size);
+                        System.out.println("==========Player 2 size: " + player2Size);
+                        System.out.println("==========Card Holder size: " + tempCardHolder);
+
+                    } else if (player2DeckOfCards.size() == 0) {
+                        System.out.println("Player 1 is the WINNER!");
+                        int player1Size = player1DeckOfCards.size();
+                        int player2Size = player2DeckOfCards.size();
+                        int tempCardHolder = players.getTempCardHolder().size();
+                        System.out.println("==========Player 1 size: " + player1Size);
+                        System.out.println("==========Player 2 size: " + player2Size);
+                        System.out.println("==========Card Holder size: " + tempCardHolder);
+
                     }
 
                 } while (playAgain);

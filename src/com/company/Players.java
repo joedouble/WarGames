@@ -24,39 +24,30 @@ public class Players {
             player1HalfOfDeck.add(player1Card);
             player1HalfOfDeck.add(player2Card);
 
-            int tempCard = tempCardHolder.size();
 
-            System.out.println("-------------TEMP CARD ARRAY SIZE BEFORE ADDING TO PLAYER 1 IS:  " + tempCard + "----------------");
-
-            for (int i = tempCardHolder.size()-1; i >=0; i--) {
+            for (int i = tempCardHolder.size() - 1; i >= 0; i--) {
                 removedCard = tempCardHolder.remove(i);
                 player1HalfOfDeck.add(removedCard);
             }
-            tempCard = tempCardHolder.size();
-            System.out.println("-------------TEMP CARD ARRAY SIZE AFTER ADDING TO PLAYER 1 IS:  " + tempCard + "----------------");
+
             System.out.println("Player 1 wins this round.\n");
 
         } else if (player2Card.getValueOfCard(player2Card) > player1Card.getValueOfCard(player1Card)) {
             player2HalfOfDeck.add(player2Card);
             player2HalfOfDeck.add(player1Card);
-            int tempCard = tempCardHolder.size();
-            System.out.println("-------------TEMP CARD ARRAY SIZE BEFORE ADDING TO PLAYER 2 IS:  " + tempCard + "----------------");
-            for (int i = tempCardHolder.size()-1; i >=0; i--) {
+
+            for (int i = tempCardHolder.size() - 1; i >= 0; i--) {
                 removedCard = tempCardHolder.remove(i);
                 player2HalfOfDeck.add(removedCard);
             }
-            tempCard = tempCardHolder.size();
-            System.out.println("-------------TEMP CARD ARRAY SIZE AFTER ADDING TO PLAYER 2 IS:  " + tempCard + "----------------");
+
             System.out.println("Player 2 wins this round.\n");
 
         } else {
             tempCards(player1Card);
             tempCards(player2Card);
             System.out.println("Player 1 and Player 2 tied.\n");
-            int tempCard = tempCardHolder.size();
-            System.out.println("-------------TEMP CARD ARRAY SIZE IS:  " + tempCard + "----------------");
         }
-
     }
 
     public void tempCards(Card playerCards) {

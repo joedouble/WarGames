@@ -57,24 +57,37 @@ public class WarGamesDemo {
                         rounds++;
                     }
 
-                    if (player1DeckOfCards.size() == 0) {
+                    int tempCardHolder = players.getTempCardHolder().size();
+
+                    if (player1DeckOfCards.size() == 0 && tempCardHolder == 0) {
                         System.out.println("Player 2 is the WINNER!");
-                        int player1Size = player1DeckOfCards.size();
-                        int player2Size = player2DeckOfCards.size();
-                        int tempCardHolder = players.getTempCardHolder().size();
-                        System.out.println("==========Player 1 size: " + player1Size);
-                        System.out.println("==========Player 2 size: " + player2Size);
-                        System.out.println("==========Card Holder size: " + tempCardHolder);
 
-                    } else if (player2DeckOfCards.size() == 0) {
+//                        CODE TO VALIDATE VARIABLES AND DATA ARE WORKING.
+//                        int player1Size = player1DeckOfCards.size();
+//                        int player2Size = player2DeckOfCards.size();
+//                        System.out.println("==========Player 1 size: " + player1Size);
+//                        System.out.println("==========Player 2 size: " + player2Size);
+//                        System.out.println("==========Card Holder size: " + tempCardHolder);
+
+                    } else if (player2DeckOfCards.size() == 0 && tempCardHolder == 0) {
                         System.out.println("Player 1 is the WINNER!");
-                        int player1Size = player1DeckOfCards.size();
-                        int player2Size = player2DeckOfCards.size();
-                        int tempCardHolder = players.getTempCardHolder().size();
-                        System.out.println("==========Player 1 size: " + player1Size);
-                        System.out.println("==========Player 2 size: " + player2Size);
-                        System.out.println("==========Card Holder size: " + tempCardHolder);
+//
+//                        CODE TO VALIDATE VARIABLES AND DATA ARE WORKING.
+//                        int player1Size = player1DeckOfCards.size();
+//                        int player2Size = player2DeckOfCards.size();
+//                        System.out.println("==========Player 1 size: " + player1Size);
+//                        System.out.println("==========Player 2 size: " + player2Size);
+//                        System.out.println("==========Card Holder size: " + tempCardHolder);
+                    }
 
+                    System.out.println("\nWould you like to play again?");
+                    System.out.println("Press [1] for YES\nPress [2] for NO");
+                    userInput = scanner.nextInt();
+
+                    if (userInput == 1) {
+                        playAgain = true;
+                    } else {
+                        playAgain = false;
                     }
 
                 } while (playAgain);

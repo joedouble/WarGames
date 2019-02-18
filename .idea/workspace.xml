@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa428829-7192-4b44-8803-1b74728242ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WarGames/com/company/WarGamesDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WarGames/com/company/WarGamesDemo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Players.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Players.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/WarGamesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/WarGamesDemo.java" afterDir="false" />
     </list>
@@ -17,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/WarGamesDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="-717">
+              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#522#528#0" expanded="true" />
@@ -84,18 +86,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Players.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
+            <state relative-caret-position="465">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#207#213#0" expanded="true" />
-                <element signature="e#2684#2685#0" expanded="true" />
+                <element signature="e#1970#1971#0" expanded="true" />
                 <element signature="e#1731#1737#0" expanded="true" />
                 <element signature="e#1916#1922#0" expanded="true" />
-                <element signature="e#3127#3128#0" expanded="true" />
-                <element signature="e#3220#3221#0" expanded="true" />
-                <element signature="e#3293#3294#0" expanded="true" />
-                <element signature="e#3386#3387#0" expanded="true" />
-                <element signature="e#3473#3474#0" expanded="true" />
+                <element signature="e#2413#2414#0" expanded="true" />
+                <element signature="e#2506#2507#0" expanded="true" />
+                <element signature="e#2579#2580#0" expanded="true" />
+                <element signature="e#2672#2673#0" expanded="true" />
+                <element signature="e#2759#2760#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,11 +215,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25668000" />
+    <option name="totallyTimeSpent" value="26278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -285,13 +286,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/WarGamesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/DeckGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -342,8 +336,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/WarGamesDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="-717">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#522#528#0" expanded="true" />
@@ -353,18 +347,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Players.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#207#213#0" expanded="true" />
-            <element signature="e#2684#2685#0" expanded="true" />
+            <element signature="e#1970#1971#0" expanded="true" />
             <element signature="e#1731#1737#0" expanded="true" />
             <element signature="e#1916#1922#0" expanded="true" />
-            <element signature="e#3127#3128#0" expanded="true" />
-            <element signature="e#3220#3221#0" expanded="true" />
-            <element signature="e#3293#3294#0" expanded="true" />
-            <element signature="e#3386#3387#0" expanded="true" />
-            <element signature="e#3473#3474#0" expanded="true" />
+            <element signature="e#2413#2414#0" expanded="true" />
+            <element signature="e#2506#2507#0" expanded="true" />
+            <element signature="e#2579#2580#0" expanded="true" />
+            <element signature="e#2672#2673#0" expanded="true" />
+            <element signature="e#2759#2760#0" expanded="true" />
           </folding>
         </state>
       </provider>
